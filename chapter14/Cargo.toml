@@ -1,0 +1,11 @@
+[package]
+name = "chapter14"
+version = "0.1.0"
+authors = ["Rajkumar Natarajan <rajkumar.natarajan@synacor.com>"]
+
+[dependencies]
+num = "0.1.42"
+
+[[bin]]
+name = "debug-demo"
+path = "src/debug_demo.rs"
